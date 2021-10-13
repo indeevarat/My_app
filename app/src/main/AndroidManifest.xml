@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
+            android:name=".db.Details"
+            android:exported="true" />
+        <activity
             android:name=".HomeActivity"
             android:exported="true" />
-        <activity android:name=".DisplayScreen"></activity>
-        <activity android:name=".Register"></activity>
+        <activity android:name=".DisplayScreen" />
+        <activity android:name=".Register" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -23,7 +26,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
